@@ -1,5 +1,5 @@
 # Final_project
-##RayTracing demo.##
+##RayTracing demo.## <br />
 Main contains the main game loop, map and raytracing algorithm<br />
 Settings contains variabes <br />
 Player contains the Player class and input method <br />
