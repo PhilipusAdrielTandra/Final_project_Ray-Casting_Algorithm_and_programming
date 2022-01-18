@@ -3,7 +3,6 @@
 Main contains the main game loop, map and raytracing algorithm<br />
 Settings contains variabes <br />
 Player contains the Player class and input method <br />
-<br />
 ### Final Project Video Demo:
 https://drive.google.com/file/d/1ppoI3HdO7UzSWgRPS0x0G7hlylv8v5e-/view?usp=sharing 
 <br />
