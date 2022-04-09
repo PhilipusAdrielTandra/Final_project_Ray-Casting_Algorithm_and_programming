@@ -66,7 +66,10 @@ def cast_rays():
                 #calculate wall height
                 wall_height = 21000 / (depth + 0.0001)
                 #draw the 3d projection
-                pygame.draw.rect(win, white, (height + ray * scale, (height / 2) - wall_height / 2, scale, wall_height))
+                # Calculate brightness
+                br = depth/max_depth
+                brightness = (br*200, br*200, br*200)
+                pygame.draw.rect(win, brightness, (height + ray * scale, (height / 2) - wall_height / 2, scale, wall_height))
 
                 break
         #incremental rays
