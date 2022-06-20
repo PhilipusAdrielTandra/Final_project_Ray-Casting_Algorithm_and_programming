@@ -1,4 +1,4 @@
-# Final_project
+# AlgorithmAndProgramming_FinalProject
 ### RayCasting.  <br />
 Main contains the main game loop, map and raytracing algorithm<br />
 Settings contains variabes <br />
